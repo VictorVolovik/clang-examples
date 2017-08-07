@@ -4,7 +4,7 @@ int main(void) {
   int hours, minutes;
 
   printf("Enter a 24-hour time (hh:mm): ");
-  scanf("%d:%d", &hours, &minutes);
+  scanf("%d : %d", &hours, &minutes);
 
   if (hours == 0) {
     printf("Equivalent 12-hour time is: 12:%.2d AM\n", minutes);
